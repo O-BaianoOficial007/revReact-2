@@ -4,15 +4,25 @@ import { RouterProvider } from "react-router/dom";
 import './index.css'
 import App from './App.jsx'
 import Charts from './Charts.jsx';
+import Contact from './Contact.jsx';
+import Products from './Products.jsx';
 
 const router = createBrowserRouter([
-  {
+{
     path: "/",
     element: <App/>,
   },
   {
     path: "/charts",
     element:<Charts/>,
+  },
+  {
+    path: "/contact",
+    element:<Contact/>,
+  },
+  {
+    path: "/product",
+    element:<Products/>,
   },
 ]);
 
