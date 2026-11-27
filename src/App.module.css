@@ -114,6 +114,49 @@
     height: 50vh;
 }
 
+.mapa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.mapButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mapButtons button {
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.mapButtons button:hover {
+    background: #eee;
+}
+
+.mapButtons button.active {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+}
+
+.mapCont {
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+}
+
 
 
 @media (width <=1000){
@@ -135,5 +178,6 @@
     .section2{
         padding: 10px;
     }
+
 }
 
