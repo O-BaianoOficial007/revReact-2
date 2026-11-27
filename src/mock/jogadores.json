@@ -1,31 +1,36 @@
 [
     {
-        "imagem": "",
-        "titulo": "",
-        "text": ""
+        "id" : "01",
+        "imagem": "/pele.jpg",
+        "titulo": "Pelé, o maior da história",
+        "text": "O maior jogador da história, com simplesmente 3 copas do mundo"
     },
 
     {
-        "imagem": "",
-        "titulo": "",
-        "text": ""
+        "id" : "02",
+        "imagem": "/cr7.jpg",
+        "titulo": "Cristiano, o maior do século",
+        "text": "O segundo maior da história, e o maior Europeu na história do futebol mundial"
     },
 
     {
-        "imagem": "",
-        "titulo": "",
-        "text": ""
+        "id" : "03",
+        "imagem": "/pessi.jpg",
+        "titulo": "Messi, o segundo maior do século",
+        "text": "lorem20"
     },
 
     {
-        "imagem": "",
-        "titulo": "",
-        "text": ""
+        "id" : "04",
+        "imagem": "/cruijff.jpg",
+        "titulo": "Cruijff, uma lenda subestimada",
+        "text": "lorem20"
     },
     
     {
-        "imagem": "",
-        "titulo": "",
-        "text": ""
+        "id" : "05",
+        "imagem": "/neyNoTreino.jpg",
+        "titulo": "Neymar, o caos perfeito",
+        "text": "lorem20"
     }
 ]

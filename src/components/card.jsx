@@ -2,7 +2,8 @@ import s from './card.module.css'
 import Tilt from 'react-parallax-tilt';
 import teste from '/neyNoTreino.jpg'
 
-export const Card = (imagem, titulo, texto) => {
+
+export const Card = ({imagem, titulo, texto}) => {
     return(
             <Tilt tiltReverse>
                 <div className={s.card}>
